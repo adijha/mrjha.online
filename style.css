@@ -144,19 +144,19 @@ p.lead {
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
   }
-  section.resume-section {
+  section.okay-section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
   }
 }
 
-section.resume-section {
+section.okay-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
   max-width: 75rem;
 }
 
-section.resume-section .resume-item .resume-date {
+section.okay-section .okay-item .okay-date {
   min-width: none;
 }
 
@@ -164,10 +164,10 @@ section.resume-section .resume-item .resume-date {
   body{
     overflow: hidden;
   }
-  section.resume-section {
+  section.okay-section {
     min-height: 100vh;
   }
-  section.resume-section .resume-item .resume-date {
+  section.okay-section .okay-item .okay-date {
     min-width: 18rem;
   }
   #sideNav{
@@ -197,6 +197,50 @@ section.resume-section .resume-item .resume-date {
   .text-primary{
     margin-top: 2.1rem !important;
     font-size: 5rem;
+  }
+
+}
+@media (max-width:500px){
+  body{
+    overflow: auto;
+  }
+   #sideNav .navbar-brand .img-profile {
+    max-width: 6rem;
+    max-height: 6rem;
+    border: 0.5rem solid rgba(33, 21, 126, 0.864);
+    margin-top: -0.8rem; 
+  }
+  .text-primary{
+    margin-top: -2rem !important;
+    font-size: 3rem;
+    margin-bottom: -1rem;
+  }
+  /* .subheading{
+    margin-bottom: 0rem !important;
+    margin-top: 0rem !important;
+  }
+  .skill{
+    margin-bottom: 40rem !important;
+    margin-top: -5rem;
+  } */
+  #sideNav{
+    height: 3rem;
+  }
+  .social-icons{
+    margin-top: -4.9rem;
+  }
+  .social-icons a{
+    display: inline;
+    
+    background-color: rgb(3, 22, 54);
+    color: rgb(255, 255, 255) !important;
+    /* margin-top: -1rem !important; */
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
+  h3{
+    margin-top: -40rem !important;
+    margin-bottom: -10rem !important;
   }
 
 }
