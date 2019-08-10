@@ -2,6 +2,7 @@ body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
   color: #868e96;
+  /* overflow: hidden; */
 }
 
 @media (min-width: 992px) {
@@ -109,6 +110,7 @@ p.lead {
     display: flex;
     margin: auto auto 0;
     padding: 0.5rem;
+    margin-top: 7rem;
   }
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
@@ -142,6 +144,10 @@ p.lead {
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
   }
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
 }
 
 section.resume-section {
@@ -154,20 +160,45 @@ section.resume-section .resume-item .resume-date {
   min-width: none;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
+  body{
+    overflow: hidden;
+  }
   section.resume-section {
     min-height: 100vh;
   }
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
   }
-}
-
-@media (min-width: 992px) {
-  section.resume-section {
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important;
+  #sideNav{
+    height: 6rem;;
   }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 9rem;
+    max-height: 9rem;
+    border: 0.5rem solid rgba(33, 21, 126, 0.864);
+    /* margin-top: -.5rem;  */
+  }
+  .social-icons{
+    margin-top: -5.9rem;
+  }
+  .social-icons a{
+    display: inline;
+    /* height: 3.2rem; */
+    /* width: 3.2rem; */
+    background-color: rgb(3, 22, 54);
+    color: rgb(255, 255, 255) !important;
+    /* border-radius: 100%; */
+    /* text-align: center; */
+    font-size: 1.5rem;
+    /* line-height: 3.5rem; */
+    margin-right: 0.5rem;
+  }
+  .text-primary{
+    margin-top: 2.1rem !important;
+    font-size: 5rem;
+  }
+
 }
 
 .bg-primary {
