@@ -56,9 +56,9 @@ p.lead {
   color: rgb(255, 255, 255) !important;
   border-radius: 100%;
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   line-height: 3.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .social-icons a:last-child {
