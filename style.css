@@ -50,8 +50,8 @@ p.lead {
 
 .social-icons a {
   display: block;
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 3.2rem;
+  width: 3.2rem;
   background-color: #20364c;
   color: rgb(255, 255, 255) !important;
   border-radius: 100%;
@@ -70,7 +70,7 @@ p.lead {
 }
 
 .dev-icons {
-  font-size: 3rem;
+  font-size: 2.3rem;
 }
 
 .dev-icons .list-inline-item i:hover {
